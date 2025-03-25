@@ -17,7 +17,7 @@ TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY")
 if not TOGETHER_API_KEY:
     raise ValueError("TOGETHER_API_KEY is missing. Add it to the .env file.")
 
-client = together.Client(api_key=TOGETHER_API_KEY) 
+client = together.Together(api_key=TOGETHER_API_KEY)
 
 engine = pyttsx3.init()
 
@@ -235,7 +235,5 @@ def result():
     return render_template('result.html')
 
 if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port)
     app.run(debug=True)
     
