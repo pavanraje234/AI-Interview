@@ -1,4 +1,4 @@
-together-ai==0.2.3
+together==0.0.1
 flask==3.0.0
 python-dotenv==1.0.0
 speechrecognition==3.10.0
