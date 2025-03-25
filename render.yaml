@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: interview-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: TOGETHER_API_KEY
+        fromGroup: together-api-key
