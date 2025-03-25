@@ -1,5 +1,5 @@
+together-ai==0.2.3
 flask==3.0.0
-together==0.0.1
 python-dotenv==1.0.0
 speechrecognition==3.10.0
 pyttsx3==2.90
@@ -8,6 +8,4 @@ matplotlib==3.8.0
 six==1.16.0
 opencv-python==4.9.0.80
 numpy==1.26.0
-python-engineio==4.6.1
-python-socketio==5.8.0
 gunicorn==21.2.0
