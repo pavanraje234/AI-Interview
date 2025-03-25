@@ -1,4 +1,4 @@
-together==0.0.1
+together==1.4.6
 flask==3.0.0
 python-dotenv==1.0.0
 speechrecognition==3.10.0
