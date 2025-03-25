@@ -1,0 +1,36 @@
+Q: What is your experience with cloud computing?
+A: highest cloud for storing database
+Score: 6/10
+----------------------------------------
+Q: What is your experience with cloud computing?
+A: highest cloud for storing database
+Score: 6/10
+----------------------------------------
+Q: Can you explain object-oriented programming?
+A: it has object and classes
+Score: 6/10
+----------------------------------------
+Q: Can you explain object-oriented programming?
+A: it has object and classes
+Score: 6/10
+----------------------------------------
+Q: Describe a project where you optimized performance.
+A: sorry next question
+Score: 0/10
+----------------------------------------
+Q: Explain the concept of recursion with an example.
+A: recursion is used to solve any real life problem
+Score: 2/10
+----------------------------------------
+Q: Explain the concept of recursion with an example.
+A: recursion is used to solve any real life problem
+Score: 2/10
+----------------------------------------
+Q: What are RESTful APIs and how do they work?
+A: sorry
+Score: 0/10
+----------------------------------------
+Q: What are RESTful APIs and how do they work?
+A: sorry
+Score: 0/10
+----------------------------------------

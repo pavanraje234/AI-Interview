@@ -1,0 +1,6 @@
+Q: Can you explain object-oriented programming?
+A: OOPS programming has a structure that classes and object classes is a footprint blueprint of the object
+----------------------------------------
+Q: That's a good start in understanding OOPS programming. Can you elaborate on how the concept of inheritance fits into this structure, particularly in how a subclass or derived class can build upon the blueprint of a parent or base class?
+A: inheritance is when a class takes the functions from another class the functions taken from the class is known as parent class and the subclass is known as child class
+----------------------------------------

@@ -1,0 +1,7 @@
+Candidate Name: BlackBerry, Role: Data Scientist, Final Score: 36/100
+Candidate Name: seed, Role: Data Scientist, Final Score: 41/100
+Role: Stuti, Software Engineer, Final Score: 50/100
+Role: ABC,  Data Scientist, Final Score: 44/100
+Candidate Name: Sahil, Role: Software Engineer, Final Score: 39.4/120, Posture Score: 5.6000000000000005/10, Eye Score: 5.8/10
+Candidate Name: Pawan, Role: Data Scientist, Final Score: 34.0/120, Posture Score: 10.0/10, Eye Score: 10.0/10
+Candidate Name: yo, Role: Data Scientist, Final Score: 30.6/120, Posture Score: 9.6/10, Eye Score: 10.0/10

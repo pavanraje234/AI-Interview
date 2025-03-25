@@ -1,0 +1,12 @@
+Q: Describe a project where you used data visualization.
+A: are used in shop sales prediction system
+Score: 6/10
+----------------------------------------
+Q: How do the predictive models used in the shop sales prediction system handle seasonal fluctuations and trends in sales data to ensure accurate forecasts?
+A: runtime error
+Score: 0/10
+----------------------------------------
+Q: Tell me about a time you worked with large datasets.
+A: decorate natak
+Score: 0/10
+----------------------------------------

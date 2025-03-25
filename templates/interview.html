@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Session</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .video-box {
+            width: 45%;
+            text-align: center;
+        }
+
+        .video-box video {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .ai-circle {
+            width: 150px;
+            height: 150px;
+            background-color: #007bff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 20px;
+            margin: 0 auto;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .controls button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .controls button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Interview Session</h1>
+        <div class="video-container">
+            <div class="video-box">
+                <h2>You</h2>
+                <video id="user-video" autoplay></video>
+            </div>
+            <div class="video-box">
+                <h2>AI Interviewer</h2>
+                <div class="ai-circle">AI</div>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="end-interview">End Interview</button>
+        </div>
+    </div>
+
+    <script>
+        // Access the user's webcam
+        const userVideo = document.getElementById('user-video');
+
+        navigator.mediaDevices.getUserMedia({ video: true, audio: true })
+            .then((stream) => {
+                userVideo.srcObject = stream;
+            })
+            .catch((error) => {
+                console.error('Error accessing webcam:', error);
+                alert('Unable to access your webcam. Please allow access to continue.');
+            });
+
+        // End interview button
+        document.getElementById('end-interview').addEventListener('click', () => {
+            if (confirm('Are you sure you want to end the interview?')) {
+                window.location.href = "{{ url_for('result') }}";
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+Q: How do you deal with imbalanced datasets?
+A: for imbalanced data set is the column is numerical we take the average and fill the null null values with the average score and if there is non numerical data then we give it a value zero
+Score: 2/10
+----------------------------------------
+Q: How do you deal with imbalanced datasets?
+A: for imbalanced data set is the column is numerical we take the average and fill the null null values with the average score and if there is non numerical data then we give it a value zero
+Score: 2/10
+----------------------------------------
+Q: What is feature engineering and why is it important?
+A: engineering is a technique that is used to improve accuracy of the model it can be done using modifying the data
+Score: 6/10
+----------------------------------------
+Q: What is feature engineering and why is it important?
+A: engineering is a technique that is used to improve accuracy of the model it can be done using modifying the data
+Score: 6/10
+----------------------------------------
+Q: Tell me about a time you worked with large datasets.
+A: few months ago I worked on a project called financial fraud detection in that project I used a large financial data set from the cattle
+Score: 6/10
+----------------------------------------
+Q: Tell me about a time you worked with large datasets.
+A: few months ago I worked on a project called financial fraud detection in that project I used a large financial data set from the cattle
+Score: 6/10
+----------------------------------------
+Q: How do you evaluate model performance?
+A: by using Matrix we can identify we can calculate the accuracy also recall function
+Score: 7/10
+----------------------------------------
+Q: How do you evaluate model performance?
+A: by using Matrix we can identify we can calculate the accuracy also recall function
+Score: 6/10
+----------------------------------------
+Q: Can you explain PCA and when to use it?
+A: move on to the next
+Score: 0/10
+----------------------------------------

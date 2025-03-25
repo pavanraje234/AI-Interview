@@ -1,0 +1,12 @@
+Q: What is your experience with cloud computing?
+A: receive my database program
+Score: 2/10
+----------------------------------------
+Q: Tell me about a challenging coding problem you solved.
+A: Eiffel Tower
+Score: 0/10
+----------------------------------------
+Q: What are the key differences between Python and Java?
+A: channel
+Score: 0/10
+----------------------------------------

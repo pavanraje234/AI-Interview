@@ -1,0 +1,32 @@
+Q: What experience do you have with machine learning models?
+A: I have built and unsupervised model based on isolation algor
+Score: 8/10
+----------------------------------------
+Q: What experience do you have with machine learning models?
+A: I have built and unsupervised model based on isolation algor
+Score: 8/10
+----------------------------------------
+Q: Can you explain PCA and when to use it?
+A: move on to the next
+Score: 0/10
+----------------------------------------
+Q: Can you explain PCA and when to use it?
+A: move on to the next
+Score: 0/10
+----------------------------------------
+Q: Tell me about a time you worked with large datasets.
+A: I worked with last data set on the last project I did which was financial fraud detection I did I used a large data set financial data set from the candle platform
+Score: 8/10
+----------------------------------------
+Q: Tell me about a time you worked with large datasets.
+A: I worked with last data set on the last project I did which was financial fraud detection I did I used a large data set financial data set from the candle platform
+Score: 7/10
+----------------------------------------
+Q: How do you handle missing data in a dataset?
+A: formation data are usually we usually remove the null data or try to balance it with calculating the average of the column
+Score: 6/10
+----------------------------------------
+Q: How do you handle missing data in a dataset?
+A: formation data are usually we usually remove the null data or try to balance it with calculating the average of the column
+Score: 7/10
+----------------------------------------

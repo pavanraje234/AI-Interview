@@ -1,0 +1,8 @@
+Q: Can you explain PCA and when to use it?
+A: PC is the dimensionality reduction techniques it is used to reduce dimensions of data
+Score: 6/10
+----------------------------------------
+Q: Can you elaborate on how Principal Component Analysis (PCA), a specific dimensionality reduction technique, works to reduce the dimensions of a dataset?
+A: current temperature
+Score: 0/10
+----------------------------------------

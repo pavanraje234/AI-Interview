@@ -1,0 +1,6 @@
+Q: Explain the concept of recursion with an example.
+A: recursion is when the function keeps calling itself
+----------------------------------------
+Q: That's a good start. To take it further, can you explain how a recursive function knows when to stop calling itself, to avoid an infinite loop?
+A: move on to the next question
+----------------------------------------

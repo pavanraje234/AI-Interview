@@ -1,0 +1,16 @@
+Q: How do you deal with imbalanced datasets?
+A: is the sound on visible sir is the audible
+Score: 0/10
+----------------------------------------
+Q: Can you clarify what you mean by "the sound on visible sir", are you trying to say that sound is not visible, but rather audible?
+A: sorry I was talking to other people
+Score: 2/10
+----------------------------------------
+Q: Tell me about a time you worked with large datasets.
+A: I want eating shop sales prediction system
+Score: 8/10
+----------------------------------------
+Q: What features or data points would you like the eating shop sales prediction system to consider, such as seasonal trends, customer demographics, or menu item popularity?
+A: solar
+Score: 0/10
+----------------------------------------

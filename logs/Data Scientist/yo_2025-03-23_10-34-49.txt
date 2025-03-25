@@ -1,0 +1,28 @@
+Q: How do you evaluate model performance?
+A: main confusion matrix
+Score: 7/10
+----------------------------------------
+Q: Tell me about a time you worked with large datasets.
+A: Delhi se Nagpur
+Score: 0/10
+----------------------------------------
+Q: Kitne kilometer ki doori hai Delhi se Nagpur?
+A: appliance service
+Score: 0/10
+----------------------------------------
+Q: Explain the difference between supervised and unsupervised learning.
+A: Bagicha Railway sorry I couldn't understand
+Score: 0/10
+----------------------------------------
+Q: Can you please clarify or provide more context about what you mean by "Bagicha Railway"?
+A: sorry I don't know
+Score: 0/10
+----------------------------------------
+Q: What is feature engineering and why is it important?
+A: it is important to calculate features of product
+Score: 4/10
+----------------------------------------
+Q: What experience do you have with machine learning models?
+A: next question
+Score: 0/10
+----------------------------------------

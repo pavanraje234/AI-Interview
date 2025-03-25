@@ -1,0 +1,32 @@
+Q: How do you handle missing data in a dataset?
+A: I can replace it with any
+Score: 2/10
+----------------------------------------
+Q: How do you handle missing data in a dataset?
+A: I can replace it with any
+Score: 2/10
+----------------------------------------
+Q: How do you deal with imbalanced datasets?
+A: I didn't try to balance the positive and negative value
+Score: 2/10
+----------------------------------------
+Q: How do you deal with imbalanced datasets?
+A: I didn't try to balance the positive and negative value
+Score: 0/10
+----------------------------------------
+Q: What experience do you have with machine learning models?
+A: Ayodhya
+Score: 0/10
+----------------------------------------
+Q: What experience do you have with machine learning models?
+A: Ayodhya
+Score: 0/10
+----------------------------------------
+Q: How do you evaluate model performance?
+A: the confusion matrix
+Score: 8/10
+----------------------------------------
+Q: Describe a project where you used data visualization.
+A: I used for house
+Score: 0/10
+----------------------------------------

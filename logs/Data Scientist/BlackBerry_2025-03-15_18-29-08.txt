@@ -1,0 +1,40 @@
+Q: Tell me about a time you worked with large datasets.
+A: I recently did a project on financial fraud detection I worked on a financial
+Score: 8/10
+----------------------------------------
+Q: Explain the difference between supervised and unsupervised learning.
+A: supervised learning takes and labelled data centre and unsupervised learning text
+Score: 6/10
+----------------------------------------
+Q: Can you explain PCA and when to use it?
+A: next question
+Score: 0/10
+----------------------------------------
+Q: How do you handle missing data in a dataset?
+A: by using different functions or simply given it a null value
+Score: 6/10
+----------------------------------------
+Q: How do you deal with imbalanced datasets?
+A: for imbalanced data set we usually take columns average if there is a numerical data and if there is not numerical data we give it a value zero
+Score: 2/10
+----------------------------------------
+Q: What experience do you have with machine learning models?
+A: I recently did a machine learning project that was evaluating the handwritten subjective answers
+Score: 8/10
+----------------------------------------
+Q: What are common pitfalls in data science projects?
+A: can you repeat the question
+Score: 0/10
+----------------------------------------
+Q: What is feature engineering and why is it important?
+A: repeat the question
+Score: 0/10
+----------------------------------------
+Q: How do you evaluate model performance?
+A: repeat
+Score: 0/10
+----------------------------------------
+Q: Describe a project where you used data visualization.
+A: I use data visualisation in fraud detection the projectile mentioned earlier I used libraries like seaborn data
+Score: 6/10
+----------------------------------------

@@ -1,0 +1,98 @@
+{
+    "Software Engineer": [
+        "Can you explain object-oriented programming?",
+        "What are the key differences between Python and Java?",
+        "Tell me about a challenging coding problem you solved.",
+        "What is your experience with cloud computing?",
+        "How do you handle debugging complex issues?",
+        "What are microservices and why are they useful?",
+        "How do you ensure code scalability?",
+        "Explain the concept of recursion with an example.",
+        "What are RESTful APIs and how do they work?",
+        "Describe a project where you optimized performance."
+    ],
+    "Data Scientist": [
+        "How do you handle missing data in a dataset?",
+        "Explain the difference between supervised and unsupervised learning.",
+        "What experience do you have with machine learning models?",
+        "How do you evaluate model performance?",
+        "What is feature engineering and why is it important?",
+        "Can you explain PCA and when to use it?",
+        "Describe a project where you used data visualization.",
+        "How do you deal with imbalanced datasets?",
+        "What are common pitfalls in data science projects?",
+        "Tell me about a time you worked with large datasets."
+    ],
+    "Product Manager": [
+        "How do you prioritize features in a product roadmap?",
+        "Describe a time when you managed a conflict between stakeholders.",
+        "What metrics do you track for product success?",
+        "How do you conduct market research?",
+        "What strategies do you use for customer feedback analysis?",
+        "Explain how you work with engineering teams.",
+        "Describe a time you launched a new product.",
+        "How do you balance user needs and business goals?",
+        "Tell me about a failed product launch and what you learned.",
+        "What frameworks do you use for product decision-making?"
+    ],
+    "Marketing Specialist": [
+        "What digital marketing tools are you experienced with?",
+        "How do you measure the success of a marketing campaign?",
+        "Can you give an example of a successful campaign you've run?",
+        "How do you approach content marketing?",
+        "What strategies do you use for SEO?",
+        "How do you handle social media marketing?",
+        "Tell me about a time you managed a crisis in marketing.",
+        "What are your thoughts on influencer marketing?",
+        "How do you generate leads effectively?",
+        "Describe a time when you improved brand awareness."
+    ],
+    "Human Resources": [
+        "How do you handle conflicts between employees?",
+        "What strategies do you use for effective recruitment?",
+        "How do you measure employee satisfaction?",
+        "Tell me about a difficult termination process you've managed.",
+        "What is your experience with HR software?",
+        "How do you ensure diversity and inclusion in hiring?",
+        "Describe a time when you improved company culture.",
+        "What are your thoughts on remote work policies?",
+        "How do you handle employee grievances?",
+        "What strategies do you use for employee retention?"
+    ],
+    "Cybersecurity Analyst": [
+        "What are the key differences between symmetric and asymmetric encryption?",
+        "How do you handle a security breach?",
+        "What is your experience with penetration testing?",
+        "Can you explain the concept of Zero Trust Security?",
+        "What are common cybersecurity threats today?",
+        "How do you secure a cloud-based environment?",
+        "Tell me about a vulnerability you found and mitigated.",
+        "What security frameworks are you familiar with?",
+        "How do you train employees to follow security best practices?",
+        "Explain how multi-factor authentication enhances security."
+    ],
+    "UI UX Designer": [
+        "What is your design process for a new product?",
+        "How do you conduct user research?",
+        "What tools do you use for prototyping and wireframing?",
+        "Describe a time you redesigned an interface for better usability.",
+        "What are the key principles of good UI design?",
+        "How do you ensure accessibility in your designs?",
+        "Tell me about a time when user feedback significantly impacted your design.",
+        "How do you handle conflicting feedback from stakeholders?",
+        "What are your thoughts on minimalistic design trends?",
+        "Explain the difference between UI and UX."
+    ],
+    "Finance Analyst": [
+        "How do you conduct financial forecasting?",
+        "What tools do you use for financial modeling?",
+        "Explain the importance of cash flow management.",
+        "Describe a time when you identified a financial risk and mitigated it.",
+        "What key financial metrics do you track?",
+        "How do you ensure compliance with financial regulations?",
+        "Tell me about a successful cost-saving initiative you led.",
+        "What is your experience with investment analysis?",
+        "How do you handle budget planning and allocation?",
+        "Explain the role of financial analytics in decision-making."
+    ]
+}

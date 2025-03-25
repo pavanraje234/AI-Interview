@@ -1,0 +1,21 @@
+You: so let's talk about
+Bot: It looks like you started to say something, but it got cut off. Please go ahead and finish your thought. What would you like to talk about? I'm all ears!
+----------------------------------------
+You: let's talk about the serial friends
+Bot: I'd be happy to discuss the serial "Friends" with you. The popular American sitcom, created by David Crane and Marta Kauffman, originally aired from September 22, 1994, to May 6, 2004.
+
+The show revolves around the lives of six friends in their 20s and 30s living in Manhattan, New York City. The main characters are:
+1. Rachel Green (played by Jennifer Aniston) - A spoiled rich girl turned independent woman.
+2. Monica Geller (played by Courteney Cox) - A neat and organized chef.
+3. Ross Geller (played by David Schwimmer) - Monica's older brother and a paleontologist.
+4. Joey Tribbiani (played by Matt LeBlanc) - A struggling actor and womanizer.
+5. Chandler Bing (played by Matthew Perry) - A sarcastic and witty advertising executive.
+6. Phoebe Buffay (played by Lisa Kudrow) - A quirky and offbeat masseuse.
+
+Throughout its 10-season run, "Friends" tackled various themes such as friendship, love, careers, and growing up. The show became a cultural phenomenon, known for its relatable characters, hilarious dialogue, and iconic moments.
+
+What aspect
+----------------------------------------
+You: goodbye
+Bot: Goodbye! Exiting now.
+----------------------------------------
