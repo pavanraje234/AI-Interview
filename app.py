@@ -11,6 +11,7 @@ import random
 from generate_report import generate_report
 from posture_eye_analysis import analyze_posture_and_eyes
 import threading
+from google.cloud import texttospeech
 load_dotenv()
 TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY")
 
@@ -18,45 +19,39 @@ if not TOGETHER_API_KEY:
     raise ValueError("TOGETHER_API_KEY is missing. Add it to the .env file.")
 
 client = together.Together(api_key=TOGETHER_API_KEY)
+# Initialize Google Cloud Text-to-Speech client
+client = texttospeech.TextToSpeechClient()
 
-engine = pyttsx3.init()
-
-def set_feminine_voice():
-    voices = engine.getProperty("voices")
-    for voice in voices:
-        if "female" in voice.name.lower() or "zira" in voice.name.lower() or "samantha" in voice.name.lower():
-            engine.setProperty("voice", voice.id)
-            break
-    engine.setProperty("rate", 180)
-    engine.setProperty("volume", 1.0)
-
-set_feminine_voice()
-
-if not os.path.exists("logs"):
-    os.makedirs("logs")
-engine = pyttsx3.init()
-
-def _speak(text):
-    """Speaks the given text using pyttsx3 with proper handling of the engine loop."""
-    global engine
-    try:
-        if engine._inLoop:  # Check if the engine is already running
-            engine.endLoop()  # Safely end the loop
-        
-        engine.say(text)
-        engine.runAndWait()  # Run the text-to-speech engine
-    except RuntimeError:
-        # Reinitialize the engine in case of issues
-        engine = pyttsx3.init()
-        engine.say(text)
-        engine.runAndWait()
-    finally:
-        engine.stop()  # Ensure the engine stops properly
-
-# Example Usage: Run _speak in a separate thread
 def speak(text):
-    """Runs the _speak function in a new thread to avoid blocking."""
-    t = threading.Thread(target=_speak, args=(text,))
+    """Uses Google Cloud Text-to-Speech to convert text into speech and play it."""
+    
+    synthesis_input = texttospeech.SynthesisInput(text=text)
+    voice = texttospeech.VoiceSelectionParams(
+        language_code="en-US",
+        ssml_gender=texttospeech.SsmlVoiceGender.FEMALE  # Choose FEMALE voice
+    )
+    audio_config = texttospeech.AudioConfig(
+        audio_encoding=texttospeech.AudioEncoding.LINEAR16
+    )
+
+    response = client.synthesize_speech(
+        input=synthesis_input, voice=voice, audio_config=audio_config
+    )
+
+    # Save the audio output to a file and play it
+    audio_file = "output.wav"
+    with open(audio_file, "wb") as out:
+        out.write(response.audio_content)
+
+    # Play the generated speech
+    os.system(f"aplay {audio_file}")  # For Linux
+    # os.system(f"afplay {audio_file}")  # For macOS
+    # os.system(f"start {audio_file}")  # For Windows
+
+# Example usage in a new thread
+def speak_async(text):
+    """Runs the speak function in a new thread to avoid blocking."""
+    t = threading.Thread(target=speak, args=(text,))
     t.start()
 
 def listen():
